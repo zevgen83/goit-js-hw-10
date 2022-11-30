@@ -12,9 +12,47 @@ body {
   line-height: 1.5;
 }
 
+img {
+  width: 50px;
+  display: block;
+  height: auto;
+}
+
+p {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+
+ul {
+  padding-left: 20px;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-top: 20px;
+  margin-left: 20px;  
 }
+
+.list-countries {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-info {
+  padding-left: 20px;
+}
+
+.one-country img {
+  width: 80px;
+}
+
+.one-country p {
+  font-size: 50px;
+}
+
